@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/irvan/CLionProjects/2D-Transformation/karya/bunga.cpp" "/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o"
+  "/home/irvan/CLionProjects/2D-Transformation/karya/karya.cpp" "/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o"
   "/home/irvan/CLionProjects/2D-Transformation/main.cpp" "/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles/2D_Transformation.dir/main.cpp.o"
   "/home/irvan/CLionProjects/2D-Transformation/shape/belahKetupat.cpp" "/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles/2D_Transformation.dir/shape/belahKetupat.cpp.o"
   "/home/irvan/CLionProjects/2D-Transformation/shape/jajarGenjang.cpp" "/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles/2D_Transformation.dir/shape/jajarGenjang.cpp.o"

@@ -220,6 +220,32 @@ CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/irvan/CLionProjects/2D-Transformation/shape/lingkaran.cpp -o CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.s
 
+CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o: CMakeFiles/2D_Transformation.dir/flags.make
+CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o: ../karya/karya.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o -c /home/irvan/CLionProjects/2D-Transformation/karya/karya.cpp
+
+CMakeFiles/2D_Transformation.dir/karya/karya.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2D_Transformation.dir/karya/karya.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/irvan/CLionProjects/2D-Transformation/karya/karya.cpp > CMakeFiles/2D_Transformation.dir/karya/karya.cpp.i
+
+CMakeFiles/2D_Transformation.dir/karya/karya.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2D_Transformation.dir/karya/karya.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/irvan/CLionProjects/2D-Transformation/karya/karya.cpp -o CMakeFiles/2D_Transformation.dir/karya/karya.cpp.s
+
+CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o: CMakeFiles/2D_Transformation.dir/flags.make
+CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o: ../karya/bunga.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o -c /home/irvan/CLionProjects/2D-Transformation/karya/bunga.cpp
+
+CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/irvan/CLionProjects/2D-Transformation/karya/bunga.cpp > CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.i
+
+CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/irvan/CLionProjects/2D-Transformation/karya/bunga.cpp -o CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.s
+
 # Object files for target 2D_Transformation
 2D_Transformation_OBJECTS = \
 "CMakeFiles/2D_Transformation.dir/main.cpp.o" \
@@ -232,7 +258,9 @@ CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.s: cmake_force
 "CMakeFiles/2D_Transformation.dir/shape/shape.cpp.o" \
 "CMakeFiles/2D_Transformation.dir/shape/trapesium.cpp.o" \
 "CMakeFiles/2D_Transformation.dir/shape/segitiga.cpp.o" \
-"CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.o"
+"CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.o" \
+"CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o" \
+"CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o"
 
 # External object files for target 2D_Transformation
 2D_Transformation_EXTERNAL_OBJECTS =
@@ -248,9 +276,11 @@ CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.s: cmake_force
 2D_Transformation: CMakeFiles/2D_Transformation.dir/shape/trapesium.cpp.o
 2D_Transformation: CMakeFiles/2D_Transformation.dir/shape/segitiga.cpp.o
 2D_Transformation: CMakeFiles/2D_Transformation.dir/shape/lingkaran.cpp.o
+2D_Transformation: CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o
+2D_Transformation: CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o
 2D_Transformation: CMakeFiles/2D_Transformation.dir/build.make
 2D_Transformation: CMakeFiles/2D_Transformation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable 2D_Transformation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable 2D_Transformation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/2D_Transformation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

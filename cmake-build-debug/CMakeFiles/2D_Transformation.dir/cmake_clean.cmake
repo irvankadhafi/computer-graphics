@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "2D_Transformation"
   "2D_Transformation.pdb"
+  "CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o"
+  "CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o"
   "CMakeFiles/2D_Transformation.dir/main.cpp.o"
   "CMakeFiles/2D_Transformation.dir/shape/belahKetupat.cpp.o"
   "CMakeFiles/2D_Transformation.dir/shape/jajarGenjang.cpp.o"

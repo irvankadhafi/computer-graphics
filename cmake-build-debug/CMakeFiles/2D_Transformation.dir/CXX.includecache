@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/irvan/CLionProjects/2D-Transformation/karya/bunga.cpp
+karya.h
+/home/irvan/CLionProjects/2D-Transformation/karya/karya.h
+
+/home/irvan/CLionProjects/2D-Transformation/karya/karya.cpp
+karya.h
+/home/irvan/CLionProjects/2D-Transformation/karya/karya.h
+
+/home/irvan/CLionProjects/2D-Transformation/karya/karya.h
+../util.h
+/home/irvan/CLionProjects/2D-Transformation/util.h
+../shape/shape.h
+/home/irvan/CLionProjects/2D-Transformation/shape/shape.h
+
 /home/irvan/CLionProjects/2D-Transformation/main.cpp
 vector
 -
@@ -15,6 +29,8 @@ shape/shape.h
 /home/irvan/CLionProjects/2D-Transformation/shape/shape.h
 transformation/transformation.h
 /home/irvan/CLionProjects/2D-Transformation/transformation/transformation.h
+karya/karya.h
+/home/irvan/CLionProjects/2D-Transformation/karya/karya.h
 
 /home/irvan/CLionProjects/2D-Transformation/shape/shape.h
 ../util.h

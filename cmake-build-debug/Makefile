@@ -143,6 +143,60 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2D_Transformation.dir/build.make CMakeFiles/2D_Transformation.dir/build
 .PHONY : 2D_Transformation/fast
 
+karya/bunga.o: karya/bunga.cpp.o
+
+.PHONY : karya/bunga.o
+
+# target to build an object file
+karya/bunga.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2D_Transformation.dir/build.make CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.o
+.PHONY : karya/bunga.cpp.o
+
+karya/bunga.i: karya/bunga.cpp.i
+
+.PHONY : karya/bunga.i
+
+# target to preprocess a source file
+karya/bunga.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2D_Transformation.dir/build.make CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.i
+.PHONY : karya/bunga.cpp.i
+
+karya/bunga.s: karya/bunga.cpp.s
+
+.PHONY : karya/bunga.s
+
+# target to generate assembly for a file
+karya/bunga.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2D_Transformation.dir/build.make CMakeFiles/2D_Transformation.dir/karya/bunga.cpp.s
+.PHONY : karya/bunga.cpp.s
+
+karya/karya.o: karya/karya.cpp.o
+
+.PHONY : karya/karya.o
+
+# target to build an object file
+karya/karya.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2D_Transformation.dir/build.make CMakeFiles/2D_Transformation.dir/karya/karya.cpp.o
+.PHONY : karya/karya.cpp.o
+
+karya/karya.i: karya/karya.cpp.i
+
+.PHONY : karya/karya.i
+
+# target to preprocess a source file
+karya/karya.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2D_Transformation.dir/build.make CMakeFiles/2D_Transformation.dir/karya/karya.cpp.i
+.PHONY : karya/karya.cpp.i
+
+karya/karya.s: karya/karya.cpp.s
+
+.PHONY : karya/karya.s
+
+# target to generate assembly for a file
+karya/karya.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2D_Transformation.dir/build.make CMakeFiles/2D_Transformation.dir/karya/karya.cpp.s
+.PHONY : karya/karya.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -449,6 +503,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 2D_Transformation"
+	@echo "... karya/bunga.o"
+	@echo "... karya/bunga.i"
+	@echo "... karya/bunga.s"
+	@echo "... karya/karya.o"
+	@echo "... karya/karya.i"
+	@echo "... karya/karya.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
