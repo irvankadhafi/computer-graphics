@@ -1,0 +1,45 @@
+#include <vector>
+#include "util.h"
+#include "shape/shape.h"
+#include "transformation/transformation.h"
+
+template <size_t rows, size_t cols>
+void printMatrix(float (&P)[rows][cols])
+{
+    for (int x = 0; x < rows; x++)
+        for (int y = 0; y < cols; y++)
+            cout << P[x][y] << " \n"[y == cols-1];
+}
+int main()
+{
+    makeWindow(500,500,(char *)"Linux BGI");
+    mainMenu();
+    /*
+    int x,y,panjang, lebar;
+    x=y=20;
+    panjang=100;
+    lebar=100;
+    float T[] = {100, 200};
+    float persegi[][2] = {
+            {x+T[0],            y+T[1]},
+            {x+panjang+T[0],    y+T[1]},
+            {x+T[0],            y+lebar+T[1]},
+            {x+panjang+T[0],    y+lebar+T[1]}
+    };
+    drawPersegi(persegi);
+    clearviewport();
+    cout<<"Matrix Sebelum "<<endl;
+    printMatrix(persegi);
+    rotasiGaris(persegi,(sizeof(persegi)/sizeof(persegi[0])),45,true);
+    cout<<endl;
+    cout<<"Matrix Sesudah "<<endl;
+    printMatrix(persegi);
+    drawPersegi(persegi);
+//    drawPersegiPanjang(50,300,200,70);
+//    drawBelahKetupat((getmaxx()/2) - (100),250,100,50);
+//    drawJajarGenjang(50,250,300,80);
+     */
+    getch();
+    closegraph();
+    return 0;
+}

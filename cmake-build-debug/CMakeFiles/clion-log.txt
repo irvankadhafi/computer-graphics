@@ -1,0 +1,4 @@
+/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -D CMAKE_C_COMPILER=/usr/bin/clang -D CMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" /home/irvan/CLionProjects/2D-Transformation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/irvan/CLionProjects/2D-Transformation/cmake-build-debug

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="2D_Transformation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2D_Transformation">
+				<Option output="/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/2D_Transformation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 2D_Transformation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2D_Transformation/fast">
+				<Option output="/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/2D_Transformation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 2D_Transformation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/irvan/CLionProjects/2D-Transformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/main.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/belahKetupat.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/jajarGenjang.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/lingkaran.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/persegi.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/segitiga.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/shape.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/shape.h">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/shape/trapesium.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/stroke.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/stroke.h">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/transformation/rotasi.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/transformation/transformation.h">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/util.cpp">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/util.h">
+			<Option target="2D_Transformation"/>
+		</Unit>
+		<Unit filename="/home/irvan/CLionProjects/2D-Transformation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

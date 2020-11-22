@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/irvan/CLionProjects/2D-Transformation/main.cpp
+vector
+-
+util.h
+/home/irvan/CLionProjects/2D-Transformation/util.h
+shape/shape.h
+/home/irvan/CLionProjects/2D-Transformation/shape/shape.h
+transformation/transformation.h
+/home/irvan/CLionProjects/2D-Transformation/transformation/transformation.h
+
+/home/irvan/CLionProjects/2D-Transformation/shape/shape.h
+../util.h
+/home/irvan/CLionProjects/2D-Transformation/util.h
+../transformation/transformation.h
+/home/irvan/CLionProjects/2D-Transformation/transformation/transformation.h
+
+/home/irvan/CLionProjects/2D-Transformation/stroke.h
+util.h
+/home/irvan/CLionProjects/2D-Transformation/util.h
+
+/home/irvan/CLionProjects/2D-Transformation/transformation/transformation.h
+../util.h
+/home/irvan/CLionProjects/2D-Transformation/util.h
+
+/home/irvan/CLionProjects/2D-Transformation/util.h
+cmath
+-
+iostream
+-
+graphics.h
+-
+stroke.h
+/home/irvan/CLionProjects/2D-Transformation/stroke.h
+
